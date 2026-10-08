@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: company-software-templates
+  description: Single entry point for all organizational templates
+spec:
+  type: url
+  targets:
+    # This glob pattern automatically finds all template files in subfolders
+    - ./`*/template.yaml`
