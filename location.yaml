@@ -7,4 +7,4 @@ spec:
   type: url
   targets:
     # This glob pattern automatically finds all template files in subfolders
-    - ./`*/template.yaml`
+    - ./*/template.yaml
